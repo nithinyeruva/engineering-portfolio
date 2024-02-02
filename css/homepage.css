@@ -1,0 +1,140 @@
+body {
+color: #ffffff;
+  background-color: #659dbd;
+}
+
+
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding: 15px 0;
+  z-index: 2000;
+  font-family: sans-serif;
+  font-style: italic;
+  padding-left: 7px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.header-title{
+  font-size: x-large;
+  padding-left: 10px;
+}
+
+.header-title a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-title a:hover{
+  color: wheat;
+  text-decoration: blink;
+}
+
+.slash {
+  color: wheat;
+  font-size: xx-large;
+  position: fixed;
+  left: 448px;
+  top: 11px;
+  transform: rotate(0deg);
+
+}
+
+
+.projects-link {
+  font-size: x-large;
+  padding-left: 20px;
+}
+.projects-link a{
+  color: white;
+  text-decoration: none;
+}
+.projects-link a:hover {
+  color: wheat;
+  text-decoration: blink;
+
+}
+
+
+.fixed-header img {
+  right: 0;
+  padding-right: 4px;
+  padding-top: 4px;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  z-index: 2005;
+
+
+}
+
+.intro {
+  font-family: sans-serif;
+  padding-top: 130px;
+  padding-left: 100px;
+  word-wrap: normal;
+  width: 550px;
+}
+
+.intro1 {
+  font-family: sans-serif;
+  word-wrap: normal;
+  padding-left: 100px;
+  width: 550px;
+}
+
+.hi {
+  font-family: sans-serif;
+  font-style: italic;
+  color: wheat;
+  z-index: 1001;
+  font-size: xxx-large;
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+.myself img {
+  width: 400px;
+  z-index: 1001;
+  position: absolute;
+  top: 90px;
+  left: 850px;
+}
+
+.resume {
+  font-family: sans-serif;
+  font-style: italic;
+  color: wheat;
+  z-index: 1001;
+  font-size: xxx-large;
+  position: absolute;
+  padding-left: 100px;
+  top: 290px;
+  font-weight: bold;
+}
+
+.resumepdf iframe {
+  position: absolute;
+  z-index: 1002;
+  left: 100px;
+  top: 395px;
+}
+
+
+
+
+
+
+
+
+
+
